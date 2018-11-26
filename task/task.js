@@ -8,10 +8,17 @@
  */
 'use strict';
 
-var http = require("http");
+var http = require('http');
 var taskEnvironment = require('./environment.json');
 var BandwidthTask = require('./lib/BandwidthTask');
 var PingTask = require('./lib/PingTask');
+
+//TODO: Using these commands supply values to environment.json
+// node ./node_modules/dispatch-proxy/bin/dispatch.js list
+// node ./node_modules/dispatch-proxy/bin/dispatch.js start SOMEIP1 SOMEIP2
+//
+//This task is now ready for proxy support
+// node ./task/node_modules/dispatch-proxy/bin/dispatch.js start --http --debug
 
 
 var writeResults = function( results ) {
