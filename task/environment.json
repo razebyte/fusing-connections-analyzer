@@ -1,0 +1,11 @@
+{
+	"pingRemote": "8.8.8.8",
+	"targetFile": {
+		"location": "http://ipv4.download.thinkbroadband.com:8080/50MB.zip",
+		"size": 50000000
+	},
+	"proxy": {
+		"name": "SomeName1",
+		"address": "SomeAddress"
+	}
+}

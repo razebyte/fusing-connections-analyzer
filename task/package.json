@@ -1,0 +1,18 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "a task script to execute a series of Client side QoS tasks",
+  "main": "task.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dispatch-proxy": "^0.1.4",
+    "ping": "^0.2.2"
+  }
+}
