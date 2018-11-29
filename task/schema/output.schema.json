@@ -2,7 +2,7 @@
 	"NetworkIdentifier": {
 		"someDateInYYYY-MM-DD-HH-MMFormat": [
 			{
-				"test": "TheNameOfATest"
+				"test": "TheNameOfATest",
 				"result": {}
 			}
 		]
