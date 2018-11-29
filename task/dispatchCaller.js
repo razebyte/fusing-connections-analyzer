@@ -129,5 +129,7 @@ class DispatchCaller {
 
 }
 
-let d = new DispatchCaller();
+module.exports = DispatchCaller;
+
+//let d = new DispatchCaller();
 //d.startHTTPProxy(["192.168.0.11", "192.168.5.15"], d.getFreePort());
