@@ -72,7 +72,7 @@ class DispatchCaller {
 	    }).on('error', function(err) {
 	      return logger.emit('error', "server\n" + (escape(err.stack)));
 	    });
-	    logger.log("<b><magenta>" + type + "</></> server started on <a>" + host + "</><b>:" + port + "</>\nDispatching to address:\n");
+	    logger.log("<b><magenta>" + type + "</></> server started on <a>" + host + "</><b>:" + port + "</>\nDispatching to address(es):\n");
 	    var addrs = "";
     	for (var a = 0; a < addresses.length; a++) {
     		addrs += addresses[a];
