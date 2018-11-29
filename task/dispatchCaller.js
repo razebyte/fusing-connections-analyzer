@@ -16,12 +16,6 @@ SocksProxy = require(path + "lib/proxy/socks");
 HttpProxy = require(path + "lib/proxy/http");
 pkg = require(path + "/package");
 
-/* Find-Free-Port
-var fp = require("./node_modules/find-free-port/index.js")
-fp(3000, function(err, freePort){
-	logger.log(freePort + "")
-}); */
-
 logger = new Logger({
   tab: 10,
   gutter: ' '
