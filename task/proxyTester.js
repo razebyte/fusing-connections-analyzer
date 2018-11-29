@@ -8,9 +8,8 @@ var TaskRunner = require('./lib/TaskRunner');
 let DispatchCaller = require('./dispatchCaller.js');
 let dispatch = new DispatchCaller();
 
-var addrCombos = dispatch.getNetworkAddressCombinations();
-
-var x, y, address, port;
+var x, address, addrCombos, port;
+addrCombos = dispatch.getNetworkAddressCombinations();
 for (x = 0; x < addrCombos.length; x++) {
 	port = dispatch.getFreePort();
 	dispatch.startHTTPProxy(addrCombos[x], port);
