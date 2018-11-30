@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "dispatch-proxy": "^0.1.4",
+    "find-free-port": "^2.0.0",
     "ping": "^0.2.2"
   }
 }

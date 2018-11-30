@@ -1,3 +1,7 @@
+# Output
+*.tmp
+*.database.json
+
 # Logs
 logs
 *.log
