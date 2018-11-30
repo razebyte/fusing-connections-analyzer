@@ -22,7 +22,13 @@ class PingTask {
 	}
 
 	async execute() {
-		return ping.promise.probe( this.environment.pingRemote, PingTask.pingConfiguration );
+		return {
+			test: "PingTask",
+			results: ping.promise.probe( 
+				this.environment.pingRemote, 
+				PingTask.pingConfiguration 
+			)
+		};
 	};
 }
 

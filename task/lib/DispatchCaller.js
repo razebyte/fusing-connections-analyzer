@@ -39,66 +39,72 @@ class DispatchCaller {
 
 		host || (host = 'localhost');
 		port || (port = 8080);
-	    type = 'HTTP';
+		type = 'HTTP';
 
-	    execAddresses = [];
-	    priority = 1;
-	    for (var i = 0; i < addresses.length; i++) {
-	    	execAddresses.push({
-		    	address: addresses[i],
-		    	priority: priority
-		    });
-	    }
+		execAddresses = [];
+		priority = 1;
+		for (var i = 0; i < addresses.length; i++) {
+			execAddresses.push({
+				address: addresses[i],
+				priority: priority
+			});
+		}
 
-	    proxy = new HttpProxy(execAddresses, port, host);
-	    proxy.on('request', function(_arg1) {
-	      var clientRequest, id, localAddress, serverRequest;
-	      clientRequest = _arg1.clientRequest, serverRequest = _arg1.serverRequest, localAddress = _arg1.localAddress;
-	      id = (crypto.randomBytes(3)).toString('hex');
-	      logger.emit('request', "[" + id + "] <a>" + clientRequest.url + "</>");
-	      logger.emit('dispatch', "[" + id + "] <a>" + localAddress + "</>");
-	      serverRequest.on('response', function(serverResponse) {
-	        return logger.emit('response', "[" + id + "] <magenta><b>" + serverResponse.statusCode + "</></>");
-	      }).on('error', function(err) {
-	        return logger.emit('error', "[" + id + "] clientRequest\n" + (escape(err.stack)));
-	      }).on('end', function() {
-	        return logger.emit('end', "[" + id + "] serverRequest");
-	      });
-	      return clientRequest.on('error', function(err) {
-	        return logger.emit('error', "[" + id + "] clientRequest\n" + (escape(err.stack)));
-	      }).on('end', function() {
-	        return logger.emit('end', "[" + id + "] clientRequest");
-	      });
-	    }).on('error', function(err) {
-	      return logger.emit('error', "server\n" + (escape(err.stack)));
-	    });
-	    logger.log("<b><magenta>" + type + "</></> server started on <a>" + host + "</><b>:" + port + "</>\nDispatching to address(es):\n");
-	    var addrs = "";
-    	for (var a = 0; a < addresses.length; a++) {
-    		addrs += addresses[a];
-    		if (addresses.length != 1 && a != addresses.length - 1) {
-    			addrs += "\n";
-    		}
-    	}
-    	logger.log(addrs);
+		proxy = new HttpProxy(execAddresses, port, host);
+		proxy.on('request', function(_arg1) {
+			var clientRequest, id, localAddress, serverRequest;
+			clientRequest = _arg1.clientRequest, serverRequest = _arg1.serverRequest, localAddress = _arg1.localAddress;
+			id = (crypto.randomBytes(3)).toString('hex');
+			logger.emit('request', "[" + id + "] <a>" + clientRequest.url + "</>");
+			logger.emit('dispatch', "[" + id + "] <a>" + localAddress + "</>");
+			serverRequest
+				.on('response', function(serverResponse) {
+					return logger.emit('response', "[" + id + "] <magenta><b>" + serverResponse.statusCode + "</></>");
+				})
+				.on('error', function(err) {
+					return logger.emit('error', "[" + id + "] clientRequest\n" + (escape(err.stack)));
+				})
+				.on('end', function() {
+					return logger.emit('end', "[" + id + "] serverRequest");
+				});
+			
+			return clientRequest
+				.on('error', function(err) {
+					return logger.emit('error', "[" + id + "] clientRequest\n" + (escape(err.stack)));
+				})
+				.on('end', function() {
+					return logger.emit('end', "[" + id + "] clientRequest");
+				});
+		}).on('error', function(err) {
+			return logger.emit('error', "server\n" + (escape(err.stack)));
+		});
+		logger.log("<b><magenta>" + type + "</></> server started on <a>" + host + "</><b>:" + port + "</>\nDispatching to address(es):\n");
+		var addrs = "";
+		for (var a = 0; a < addresses.length; a++) {
+			addrs += addresses[a];
+			if (addresses.length != 1 && a != addresses.length - 1) {
+				addrs += "\n";
+			}
+		}
+		logger.log(addrs);
 
-    	return proxy;
+		return proxy;
 	}
 
 	getNetworkAddresses() {
 		var addrs, connection, address, interfaces, name, networkAddresses, i;
-  		networkAddresses = [];
-  		interfaces = os.networkInterfaces();
-  		for (name in interfaces) {
-  			addrs = interfaces[name];
-  			for (i = 0; i < addrs.length; i++) {
-  				connection = addrs[i];
-  				if (connection.family === 'IPv4' && !connection.internal) {
-  					networkAddresses.push(connection["address"]);
-  				}
-  			}
-  		}
-  		return networkAddresses;
+		networkAddresses = [];
+		interfaces = os.networkInterfaces();
+		for (name in interfaces) {
+			addrs = interfaces[name];
+			for (i = 0; i < addrs.length; i++) {
+				connection = addrs[i];
+				if (connection.family === 'IPv4' && !connection.internal) {
+					networkAddresses.push(connection["address"]);
+				}
+			}
+		}
+		return networkAddresses;
 	}
 
 	getNetworkAddressCombinations() {
