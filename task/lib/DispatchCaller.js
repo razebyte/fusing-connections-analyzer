@@ -3,7 +3,7 @@
 var HttpProxy, Logger, SocksProxy, crypto, inspect, logger, os, pkg, program,
   __slice = [].slice;
 
-var path = "./node_modules/dispatch-proxy/";
+var path = "../node_modules/dispatch-proxy/";
 
 os = require('os');
 inspect = require('util').inspect;
@@ -81,6 +81,8 @@ class DispatchCaller {
     		}
     	}
     	logger.log(addrs);
+
+    	return proxy;
 	}
 
 	getNetworkAddresses() {
@@ -91,7 +93,7 @@ class DispatchCaller {
   			addrs = interfaces[name];
   			for (i = 0; i < addrs.length; i++) {
   				connection = addrs[i];
-  				if (connection["family"] != "IPv6") {
+  				if (connection.family === 'IPv4' && !connection.internal) {
   					networkAddresses.push(connection["address"]);
   				}
   			}
@@ -130,6 +132,3 @@ class DispatchCaller {
 }
 
 module.exports = DispatchCaller;
-
-//let d = new DispatchCaller();
-//d.startHTTPProxy(["192.168.0.11", "192.168.5.15"], d.getFreePort());

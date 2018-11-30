@@ -34,13 +34,16 @@ class TaskRunner {
 			new PingTask( this.environment )
 		];
 
-		Promise.all( 
-			tasks.map(
-				task => task.execute()
-			) 
-		).then( 
-			value => TaskRunner.writeResults(value) 
-		);
+		return new Promise( (resolve,reject) => {
+			Promise.all( 
+				tasks.map(
+					task => task.execute()
+				) 
+			).then( value => { 
+				TaskRunner.writeResults(value);
+				resolve("Done");
+			}).catch(reject);
+		});
 	};
 }
 
