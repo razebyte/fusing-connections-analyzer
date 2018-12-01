@@ -1,6 +1,5 @@
 # Output
 *.tmp
-*.database.json
 
 # Logs
 logs
