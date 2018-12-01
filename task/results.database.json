@@ -1,0 +1,2182 @@
+{
+	"Connection-192.168.1.106-192.168.1.108": {
+		"2018-12-01T07:42:06.767Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 469,
+					"dataSizeKB": 10646.6796875,
+					"avgThroughput": 2805.51,
+					"maxThroughput": 3327.43,
+					"minThroughput": 370.5
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:43:11.735Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 406,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2165.28,
+					"maxThroughput": 3729.3,
+					"minThroughput": 258.12
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:44:17.241Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 512,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 1770.41,
+					"maxThroughput": 2730.45,
+					"minThroughput": 328.02
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:45:18.959Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 395,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 1113.49,
+					"maxThroughput": 1380.63,
+					"minThroughput": 484.17
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:46:19.095Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 384,
+					"dataSizeKB": 10646.6669921875,
+					"avgThroughput": 930.86,
+					"maxThroughput": 2704.26,
+					"minThroughput": 163.79
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:47:11.259Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 351,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 2268.46,
+					"maxThroughput": 3467.36,
+					"minThroughput": 447.22
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:48:15.791Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 417,
+					"dataSizeKB": 10646.6689453125,
+					"avgThroughput": 1461.22,
+					"maxThroughput": 2692.15,
+					"minThroughput": 373.23
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:49:12.163Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 350,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 2167.43,
+					"maxThroughput": 3755.34,
+					"minThroughput": 389.69
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:50:13.580Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 361,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 2454.9,
+					"maxThroughput": 3837.1,
+					"minThroughput": 330.75
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:51:11.542Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 354,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2359.27,
+					"maxThroughput": 3798.1,
+					"minThroughput": 351.31
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:52:12.627Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 363,
+					"dataSizeKB": 10646.66796875,
+					"avgThroughput": 2141.46,
+					"maxThroughput": 3820.08,
+					"minThroughput": 386.96
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:53:12.062Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 354,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2048.51,
+					"maxThroughput": 3426.57,
+					"minThroughput": 352.68
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:54:11.610Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 344,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 2317.64,
+					"maxThroughput": 3132.55,
+					"minThroughput": 721
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:55:11.795Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 349,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2380.39,
+					"maxThroughput": 3507.11,
+					"minThroughput": 510.2
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:56:11.998Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 365,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2137.27,
+					"maxThroughput": 3297.08,
+					"minThroughput": 392.43
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:57:11.744Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 400,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 2099.81,
+					"maxThroughput": 3079.62,
+					"minThroughput": 546.1
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:58:12.302Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 385,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 2172.18,
+					"maxThroughput": 3128.85,
+					"minThroughput": 358.2
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:59:11.637Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 393,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 2297.13,
+					"maxThroughput": 3437,
+					"minThroughput": 421.16
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:00:21.493Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 365,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 775.24,
+					"maxThroughput": 1319.29,
+					"minThroughput": 312.92
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:01:13.423Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 358,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 1881.64,
+					"maxThroughput": 3096.59,
+					"minThroughput": 481.45
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:02:12.405Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 386,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2105.89,
+					"maxThroughput": 3664.87,
+					"minThroughput": 407.49
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:02:20.896Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 393,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 1912.33,
+					"maxThroughput": 2994.26,
+					"minThroughput": 363.67
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:03:11.374Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 337,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 2354.69,
+					"maxThroughput": 3498.91,
+					"minThroughput": 643.03
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:04:11.860Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 347,
+					"dataSizeKB": 10646.6689453125,
+					"avgThroughput": 2276.51,
+					"maxThroughput": 3268.23,
+					"minThroughput": 497.85
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:05:12.240Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 374,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2262.34,
+					"maxThroughput": 3359.41,
+					"minThroughput": 451.31
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:06:11.478Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 357,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2446.63,
+					"maxThroughput": 4185.62,
+					"minThroughput": 459.56
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:07:12.064Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 360,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 2107.11,
+					"maxThroughput": 3763.28,
+					"minThroughput": 465.04
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:08:11.180Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 372,
+					"dataSizeKB": 10646.6650390625,
+					"avgThroughput": 2381.43,
+					"maxThroughput": 3672.18,
+					"minThroughput": 391.06
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:09:10.698Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 343,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 2682.63,
+					"maxThroughput": 5606.29,
+					"minThroughput": 497.85
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:10:17.920Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 364,
+					"dataSizeKB": 10646.66796875,
+					"avgThroughput": 1039.99,
+					"maxThroughput": 2706.98,
+					"minThroughput": 418.41
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:11:12.806Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 377,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2067.94,
+					"maxThroughput": 3668.88,
+					"minThroughput": 363.67
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:12:13.403Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 398,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2411.46,
+					"maxThroughput": 4173.03,
+					"minThroughput": 317.05
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:13:11.664Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 379,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2257.65,
+					"maxThroughput": 3368.2,
+					"minThroughput": 400.64
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:14:11.320Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 353,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 2298.1,
+					"maxThroughput": 3583.11,
+					"minThroughput": 377.33
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:15:12.012Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 399,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 2369.53,
+					"maxThroughput": 3474.33,
+					"minThroughput": 493.75
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:16:10.371Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 379,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2949.73,
+					"maxThroughput": 4197.08,
+					"minThroughput": 688.13
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:17:11.044Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 395,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2457.11,
+					"maxThroughput": 4108.02,
+					"minThroughput": 517.08
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:18:10.654Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 379,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 2661.02,
+					"maxThroughput": 5037.5,
+					"minThroughput": 432.15
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:19:18.573Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 369,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 949.59,
+					"maxThroughput": 2621.97,
+					"minThroughput": 165.16
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:20:12.716Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 368,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 1981.14,
+					"maxThroughput": 3188.65,
+					"minThroughput": 359.55
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:21:12.276Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 411,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 2187,
+					"maxThroughput": 3003.05,
+					"minThroughput": 385.58
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:22:12.094Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 371,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2052.76,
+					"maxThroughput": 3649.7,
+					"minThroughput": 332.13
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:23:11.865Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 348,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2020.05,
+					"maxThroughput": 3363.61,
+					"minThroughput": 382.81
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:24:12.908Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 421,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 2058.18,
+					"maxThroughput": 3410.18,
+					"minThroughput": 400.64
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:25:12.192Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 354,
+					"dataSizeKB": 10646.6650390625,
+					"avgThroughput": 2250.66,
+					"maxThroughput": 3115.16,
+					"minThroughput": 459.56
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:26:11.322Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 347,
+					"dataSizeKB": 10646.666015625,
+					"avgThroughput": 2392.93,
+					"maxThroughput": 4032.03,
+					"minThroughput": 403.38
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:27:09.879Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 354,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 3414.41,
+					"maxThroughput": 7370.73,
+					"minThroughput": 396.54
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:28:13.712Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 365,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 1707.2,
+					"maxThroughput": 2440.03,
+					"minThroughput": 441.75
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:29:12.896Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 392,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 1920.41,
+					"maxThroughput": 3073.54,
+					"minThroughput": 330.75
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:30:12.565Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 367,
+					"dataSizeKB": 10646.6787109375,
+					"avgThroughput": 2149.06,
+					"maxThroughput": 3617.09,
+					"minThroughput": 449.95
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:31:12.148Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 374,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2133.08,
+					"maxThroughput": 3663.63,
+					"minThroughput": 426.67
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:32:13.209Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 413,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2314.69,
+					"maxThroughput": 3366.15,
+					"minThroughput": 512.97
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:33:13.221Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 395,
+					"dataSizeKB": 10646.6689453125,
+					"avgThroughput": 1824.33,
+					"maxThroughput": 2826.7,
+					"minThroughput": 386.96
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:34:12.980Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 395,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 1893.07,
+					"maxThroughput": 2985.93,
+					"minThroughput": 308.8
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:35:11.530Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 430,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2249.73,
+					"maxThroughput": 3231.41,
+					"minThroughput": 454.06
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:36:11.665Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 382,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2359.27,
+					"maxThroughput": 3570.75,
+					"minThroughput": 586.91
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:37:20.302Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 366,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 799.75,
+					"maxThroughput": 2618.16,
+					"minThroughput": 106.94
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:38:11.494Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 370,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2336.52,
+					"maxThroughput": 3423.56,
+					"minThroughput": 415.67
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:39:11.894Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 395,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2085.75,
+					"maxThroughput": 3577.24,
+					"minThroughput": 336.24
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:40:15.601Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 368,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 1938.17,
+					"maxThroughput": 3254.13,
+					"minThroughput": 370.5
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:41:12.345Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 365,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 2159.28,
+					"maxThroughput": 3760.69,
+					"minThroughput": 403.38
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:41:31.911Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 442,
+					"dataSizeKB": 10646.6689453125,
+					"avgThroughput": 2066.37,
+					"maxThroughput": 3534.64,
+					"minThroughput": 340.33
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:42:12.474Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 344,
+					"dataSizeKB": 10646.6689453125,
+					"avgThroughput": 1999.3,
+					"maxThroughput": 3202.19,
+					"minThroughput": 421.16
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:43:11.342Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 389,
+					"dataSizeKB": 10646.6689453125,
+					"avgThroughput": 2466.56,
+					"maxThroughput": 3811.16,
+					"minThroughput": 521.14
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:44:10.973Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 360,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 2397.14,
+					"maxThroughput": 3755,
+					"minThroughput": 525.25
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:45:11.848Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 351,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 2158.42,
+					"maxThroughput": 3882.57,
+					"minThroughput": 381.44
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:46:11.962Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 358,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 2673.42,
+					"maxThroughput": 5435.45,
+					"minThroughput": 499.22
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:47:11.926Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 393,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 2182.62,
+					"maxThroughput": 3158.99,
+					"minThroughput": 410.22
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		]
+	},
+	"Connection-192.168.1.108": {
+		"2018-12-01T07:42:08.080Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 401,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 2098.19,
+					"maxThroughput": 4215.35,
+					"minThroughput": 341.7
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:43:12.209Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 344,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 1974.32,
+					"maxThroughput": 3001.12,
+					"minThroughput": 345.84
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:44:15.355Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 440,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 2349.61,
+					"maxThroughput": 3971.15,
+					"minThroughput": 329.39
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:45:15.141Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 341,
+					"dataSizeKB": 10646.6796875,
+					"avgThroughput": 1823.72,
+					"maxThroughput": 2938.06,
+					"minThroughput": 355.44
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:46:18.859Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 335,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 949.92,
+					"maxThroughput": 2734.15,
+					"minThroughput": 148.75
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:47:12.520Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 308,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 1797.26,
+					"maxThroughput": 2983.55,
+					"minThroughput": 308.8
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:48:14.475Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 316,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2337.52,
+					"maxThroughput": 3433.05,
+					"minThroughput": 573.23
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:49:12.838Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 335,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 1921.09,
+					"maxThroughput": 2887.36,
+					"minThroughput": 388.32
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:50:15.231Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 309,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 1788.71,
+					"maxThroughput": 2967.13,
+					"minThroughput": 352.68
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:51:17.843Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 303,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 997.64,
+					"maxThroughput": 2557.23,
+					"minThroughput": 159.67
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:52:13.308Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 319,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 1889.79,
+					"maxThroughput": 2682.1,
+					"minThroughput": 382.81
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:53:12.000Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 309,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 2074.63,
+					"maxThroughput": 3456.79,
+					"minThroughput": 314.3
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:54:12.579Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 306,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 1924.48,
+					"maxThroughput": 2594.89,
+					"minThroughput": 495.12
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:55:12.026Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 312,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 2269.87,
+					"maxThroughput": 3102.91,
+					"minThroughput": 525.25
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:56:11.795Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 315,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 2224.94,
+					"maxThroughput": 3239.93,
+					"minThroughput": 560.9
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:57:11.652Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 349,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 2136.85,
+					"maxThroughput": 3500.85,
+					"minThroughput": 384.19
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:58:12.313Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 380,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2184.81,
+					"maxThroughput": 3169.81,
+					"minThroughput": 400.64
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T07:59:11.924Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 325,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2159.28,
+					"maxThroughput": 3778.51,
+					"minThroughput": 365.04
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:00:21.944Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 312,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 750.84,
+					"maxThroughput": 1269.9,
+					"minThroughput": 280.02
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:01:13.470Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 376,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 1887.5,
+					"maxThroughput": 2942.08,
+					"minThroughput": 445.85
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:02:14.158Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 326,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 1570.69,
+					"maxThroughput": 2178.78,
+					"minThroughput": 465.04
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:02:21.392Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 336,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 1757.28,
+					"maxThroughput": 3287.14,
+					"minThroughput": 306.06
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:03:11.640Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 352,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 2256.25,
+					"maxThroughput": 3376.18,
+					"minThroughput": 356.83
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:04:11.824Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 304,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2295.68,
+					"maxThroughput": 3302.56,
+					"minThroughput": 480.09
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:05:12.484Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 331,
+					"dataSizeKB": 10646.6796875,
+					"avgThroughput": 2154.58,
+					"maxThroughput": 3678.68,
+					"minThroughput": 419.78
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:06:11.483Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 340,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 2459.33,
+					"maxThroughput": 3955.86,
+					"minThroughput": 441.75
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:07:11.343Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 317,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 2451.03,
+					"maxThroughput": 4406.9,
+					"minThroughput": 369.13
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:08:11.005Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 322,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2474.4,
+					"maxThroughput": 4030.03,
+					"minThroughput": 495.12
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:09:18.297Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 302,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 935.17,
+					"maxThroughput": 2727.36,
+					"minThroughput": 162.41
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:10:16.276Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 335,
+					"dataSizeKB": 10646.6689453125,
+					"avgThroughput": 2280.32,
+					"maxThroughput": 3171.47,
+					"minThroughput": 530.72
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:11:12.361Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 323,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 2256.72,
+					"maxThroughput": 3409.33,
+					"minThroughput": 436.24
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:12:13.395Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 344,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 2414.13,
+					"maxThroughput": 4305.68,
+					"minThroughput": 304.68
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:13:11.987Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 330,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2115.29,
+					"maxThroughput": 3425.25,
+					"minThroughput": 363.67
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:14:11.900Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 309,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 2048.51,
+					"maxThroughput": 3627.61,
+					"minThroughput": 344.46
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:15:12.250Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 367,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2259.52,
+					"maxThroughput": 3223.13,
+					"minThroughput": 459.56
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:16:11.001Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 314,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 2507.98,
+					"maxThroughput": 4334.8,
+					"minThroughput": 454.07
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:17:11.062Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 317,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2429.73,
+					"maxThroughput": 4005.86,
+					"minThroughput": 414.31
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:18:11.605Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 335,
+					"dataSizeKB": 10646.66796875,
+					"avgThroughput": 2161.42,
+					"maxThroughput": 4421.67,
+					"minThroughput": 349.94
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:19:18.373Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 318,
+					"dataSizeKB": 10646.66796875,
+					"avgThroughput": 966.42,
+					"maxThroughput": 3053.05,
+					"minThroughput": 162.41
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:20:11.885Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 346,
+					"dataSizeKB": 10646.6728515625,
+					"avgThroughput": 2346.58,
+					"maxThroughput": 3281.35,
+					"minThroughput": 575.98
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:21:11.876Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 321,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 2356.21,
+					"maxThroughput": 3590.64,
+					"minThroughput": 382.81
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:22:11.981Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 318,
+					"dataSizeKB": 10646.66796875,
+					"avgThroughput": 2096.98,
+					"maxThroughput": 3659.37,
+					"minThroughput": 337.6
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:23:11.158Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 297,
+					"dataSizeKB": 10646.66796875,
+					"avgThroughput": 2323.07,
+					"maxThroughput": 3407.17,
+					"minThroughput": 408.87
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:24:12.750Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 322,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2100.21,
+					"maxThroughput": 3429.48,
+					"minThroughput": 432.15
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:25:12.200Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 310,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2247.88,
+					"maxThroughput": 3195.87,
+					"minThroughput": 428.04
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:26:11.200Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 306,
+					"dataSizeKB": 10646.6787109375,
+					"avgThroughput": 2462.1,
+					"maxThroughput": 4288.59,
+					"minThroughput": 414.31
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:27:10.810Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 334,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2661.02,
+					"maxThroughput": 6715.42,
+					"minThroughput": 492.37
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:28:10.629Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 316,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 3305.7,
+					"maxThroughput": 7035.81,
+					"minThroughput": 412.93
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:29:12.457Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 348,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 2083.75,
+					"maxThroughput": 3538.93,
+					"minThroughput": 351.31
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:30:12.301Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 324,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 2270.82,
+					"maxThroughput": 3412.04,
+					"minThroughput": 458.19
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:31:11.937Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 323,
+					"dataSizeKB": 10646.677734375,
+					"avgThroughput": 2227.21,
+					"maxThroughput": 3122.06,
+					"minThroughput": 433.52
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:32:13.596Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 335,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 1673.4,
+					"maxThroughput": 3017.75,
+					"minThroughput": 508.83
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:33:13.698Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 344,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 1688.17,
+					"maxThroughput": 2923.1,
+					"minThroughput": 345.84
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:34:12.998Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 346,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 1886.19,
+					"maxThroughput": 2832.77,
+					"minThroughput": 378.7
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:35:11.563Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 351,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2219.95,
+					"maxThroughput": 3319.02,
+					"minThroughput": 311.54
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:36:12.173Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 378,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2144.83,
+					"maxThroughput": 4933.33,
+					"minThroughput": 338.97
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:37:18.375Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 307,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 930.54,
+					"maxThroughput": 2690.45,
+					"minThroughput": 156.12
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:38:12.083Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 326,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2075.03,
+					"maxThroughput": 3622.27,
+					"minThroughput": 378.7
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:39:11.509Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 313,
+					"dataSizeKB": 10646.67578125,
+					"avgThroughput": 2236.81,
+					"maxThroughput": 3216.66,
+					"minThroughput": 584.18
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:40:14.829Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 380,
+					"dataSizeKB": 10646.666015625,
+					"avgThroughput": 2277.46,
+					"maxThroughput": 3324.47,
+					"minThroughput": 445.85
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:41:12.559Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 317,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 2069.51,
+					"maxThroughput": 2979.36,
+					"minThroughput": 434.87
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:41:31.382Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 352,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 2283.66,
+					"maxThroughput": 3453.44,
+					"minThroughput": 515.71
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:42:12.353Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 317,
+					"dataSizeKB": 10646.673828125,
+					"avgThroughput": 2053.14,
+					"maxThroughput": 3562.17,
+					"minThroughput": 304.68
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:43:11.982Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 355,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 2160.13,
+					"maxThroughput": 3779.96,
+					"minThroughput": 410.22
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:44:11.202Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 337,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 2292.3,
+					"maxThroughput": 3426.22,
+					"minThroughput": 439
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:45:11.706Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 302,
+					"dataSizeKB": 10646.6767578125,
+					"avgThroughput": 2220.86,
+					"maxThroughput": 3087.83,
+					"minThroughput": 500.59
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:46:19.125Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 316,
+					"dataSizeKB": 10646.6708984375,
+					"avgThroughput": 970.46,
+					"maxThroughput": 3371.79,
+					"minThroughput": 162.41
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-01T08:47:11.747Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 339,
+					"dataSizeKB": 10646.669921875,
+					"avgThroughput": 2262.33,
+					"maxThroughput": 3288.81,
+					"minThroughput": 418.41
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		]
+	}
+}
