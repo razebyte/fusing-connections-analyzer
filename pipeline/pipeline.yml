@@ -43,4 +43,4 @@ jobs:
       platform: linux
       run:
         path: sh
-        args: [callProxyTest.sh]
+        args: [git_repo/pipeline/callProxyTest.sh]
