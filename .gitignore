@@ -1,6 +1,5 @@
 # Output
 *.tmp
-*.database.json
 
 # Logs
 logs
@@ -81,3 +80,7 @@ typings/
 
 #DynamoDB Local files 
 .dynamodb/
+
+
+#Pipeline credentials file
+*credentials.yml

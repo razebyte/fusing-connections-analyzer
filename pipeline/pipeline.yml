@@ -1,0 +1,46 @@
+resources:
+- name: git_repo
+  type: git
+  source:
+    uri: https://github.com/razebyte/fusing-connections-analyzer
+    branch: master
+    private_key: {{github_priv_key}}
+
+- name: scheduler
+  type: time
+  source:
+    start: 8:57 PM
+    stop: 9:00 PM
+    location: America/Toronto
+
+- name: node_container
+  type: docker-image
+  source:
+    repository: node
+    tag: lts
+    username: {{docker_user}}
+    password: {{docker_pass}}
+    email: {{docker_email}}
+
+jobs:
+
+- name: Kickstart
+  plan:
+  - put: scheduler
+
+- name: Just Connection 1
+  plan:
+  - aggregate:
+    - get: node_container
+    - get: git_repo
+    - get: scheduler
+      trigger: true
+  - task: Run proxyTester with 1 Connection
+    image: node_container
+    config:
+      inputs:
+        - name: git_repo
+      platform: linux
+      run:
+        path: sh
+        args: [git_repo/pipeline/callProxyTest.sh]
