@@ -29375,6 +29375,22 @@
 				"test": "PingTask",
 				"results": {}
 			}
+		],
+		"2018-12-02T20:05:49.715Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 361,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 842.06,
+					"maxThroughput": 2096.62,
+					"minThroughput": 139.19
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
 		]
 	},
 	"Connection-192.168.1.106": {
@@ -58753,6 +58769,22 @@
 				"test": "PingTask",
 				"results": {}
 			}
+		],
+		"2018-12-02T20:05:49.691Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 322,
+					"dataSizeKB": 10646.671875,
+					"avgThroughput": 843.95,
+					"maxThroughput": 2156.87,
+					"minThroughput": 156.95
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
 		]
 	},
 	"Connection-192.168.1.108": {
@@ -88125,6 +88157,22 @@
 					"avgThroughput": 1875.16,
 					"maxThroughput": 2786.19,
 					"minThroughput": 375.96
+				}
+			},
+			{
+				"test": "PingTask",
+				"results": {}
+			}
+		],
+		"2018-12-02T20:05:48.881Z": [
+			{
+				"test": "BandwidthTask",
+				"result": {
+					"latency": 311,
+					"dataSizeKB": 10646.6748046875,
+					"avgThroughput": 900.34,
+					"maxThroughput": 2589.3,
+					"minThroughput": 165.57
 				}
 			},
 			{
