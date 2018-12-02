@@ -7,6 +7,6 @@ cd /home/hussein/Documents/fusing-connections-analyzer/task/;
 npm install .
 /usr/bin/nodejs proxyTester.js;
 
-git add  ./results.database.json
-git commit -m "Data Update from Pipeline"
+sudo git add  ./results.database.json
+sudo git commit -m "Data Update from Pipeline"
 git push
