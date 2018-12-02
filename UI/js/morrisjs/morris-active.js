@@ -6,13 +6,14 @@ var parsed_data = [];
 var latency_data = [];
 //parsed_data.push(1);
 
-$.getJSON('https://raw.githubusercontent.com/razebyte/fusing-connections-analyzer/master/task/results.database.json', function(data) {
+$.getJSON('https://raw.githubusercontent.com/razebyte/fusing-connections-analyzer/351cbc0fcecd74daf204f070b4aed095aed48c13/task/results.database.json?fbclid=IwAR1Gz_-k5QT5R_6Ph7P2ubRzs4qoQiaOXUl-I0-Svvh_hqYn5u1OP9Tm1jk', function(data) {
     //data is the JSON string
     var arr = [];
     var arrLat = [];
     this.info_json = data;
     this.connection_1 = data["Connection-192.168.1.106-192.168.1.108"];
-    console.log("We here");
+    console.log("we here");
+    console.log(this.info_json);
     // For Bandwidth task result
     for(var key in this.connection_1){
       var valKey = this.connection_1[key][0].result;
@@ -32,7 +33,7 @@ $.getJSON('https://raw.githubusercontent.com/razebyte/fusing-connections-analyze
     }
     this.parsed_data = arr;
     this.latency_data = arrLat;
-    console.log(arr);
+    console.log(this.parsed_data);
 });
 
 Morris.Area({
@@ -200,7 +201,7 @@ var data = [
     {period: "2018-12-01T07:55:11.795Z", item1: 349, item2: 3132.55, item3: 721, item4: 2317.64}
   ];
 
-
+console.log(this.parsed_data);
 console.log(data);
 
 Morris.Area({
