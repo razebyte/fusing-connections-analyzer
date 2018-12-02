@@ -107,26 +107,23 @@ class DispatchCaller {
 		return networkAddresses;
 	}
 
+	/** 
+	 * This method has been simplified to only return the combinations we want to test.
+	 * Which are:
+	 * 		- All combined
+	 * 		- All individually
+	 */
 	getNetworkAddressCombinations() {
-		var networkAddresses, naSet, naComboSet, x, y;
-		networkAddresses = this.getNetworkAddresses();
-		naSet = [];
-		naComboSet = [];
-		for (x = 0; x < networkAddresses.length; x++) {
-			naSet.push(networkAddresses[x]);
+		var networkAddresses = this.getNetworkAddresses();
+		var combinations = [];
 
-			if (x == networkAddresses.length - 1) {
-				naComboSet.push(naSet);
-				break; // prevents powerset
-			}
+		// Add a copy of the All only if there are more than one
+		if(networkAddresses.length > 1) combinations.push(networkAddresses.slice());
 
-			for (y = (x+1); y < networkAddresses.length; y++) {
-				naSet.push(networkAddresses[y]);
-			}
-			naComboSet.push(naSet);
-			naSet = [];
-		}
-		return naComboSet;
+		// Add all addresses individually
+		return combinations.concat(
+			networkAddresses.map(c => [c])
+		);
 	}
 
 	printArray(arr) {

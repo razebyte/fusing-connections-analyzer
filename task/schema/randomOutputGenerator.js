@@ -19,9 +19,8 @@ var result = {};
 
 for(var i=0; i < numberOfNetworks; i++) {
 	var dateAndTests = {};
-
+	var modifiedDate = new Date();
 	for(var j=0; j < numberOfTimes; j++) {
-		var modifiedDate = new Date();
 		modifiedDate.setHours(modifiedDate.getHours()+1);
 		dateAndTests[modifiedDate.toISOString()] = [
 			{
