@@ -43,6 +43,7 @@ $.getJSON(urlToJsonDb, function(data) {
 		connections
 	);
 
+setfirstConnectionGraph();
 	setBottomGraph();
 });
 
@@ -91,7 +92,8 @@ var setTopGraph = function( incomingData, connectionLabels ) {
 }
 
 var setfirstConnectionGraph = function() {
-	Morris.Line(
+	$("#firstConnectionGraph").empty();
+	 Morris.Line(
 		{
 			// Required Fields
 			element: 'firstConnectionGraph',
@@ -117,8 +119,11 @@ var setfirstConnectionGraph = function() {
 }
 
 
+
+
 var setSecondConnectionGraph = function() {
-	Morris.Line(
+	$("#firstConnectionGraph").empty();
+	 Morris.Line(
 		{
 			// Required Fields
 			element: 'firstConnectionGraph',
@@ -145,10 +150,11 @@ var setSecondConnectionGraph = function() {
 
 
 var setthirdConnectionGraph = function() {
+	$("#firstConnectionGraph").empty();
 	Morris.Line(
 		{
 			// Required Fields
-			element: 'ThirdConnectionGraph',
+			element: 'firstConnectionGraph',
 			data: bandwidthTaskMetricResults.avgThroughput,
 			xkey: 'period',
 			xlabels: '30sec',
