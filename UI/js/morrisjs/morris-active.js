@@ -136,8 +136,8 @@ var setSecondConnectionGraph = function() {
 			// Styling
 			pointSize: 1,
 			fillOpacity: 0.80,
-			pointStrokeColors: ['#FF0000', '#00FF00', '#0000FF'],
-			lineColors: ['#FF0000', '#00FF00', '#0000FF'],
+			pointStrokeColors: ['#00FF00'],
+			lineColors: ['#00FF00'],
 			gridLineColor: '#e0e0e0',
 			lineWidth: 1,
 			hideHover: 'auto',
@@ -164,8 +164,8 @@ var setthirdConnectionGraph = function() {
 			// Styling
 			pointSize: 1,
 			fillOpacity: 0.80,
-			pointStrokeColors: ['#FF0000', '#00FF00', '#0000FF'],
-			lineColors: ['#FF0000', '#00FF00', '#0000FF'],
+			pointStrokeColors: ['#0000FF'],
+			lineColors: ['#0000FF'],
 			gridLineColor: '#e0e0e0',
 			lineWidth: 1,
 			hideHover: 'auto',
