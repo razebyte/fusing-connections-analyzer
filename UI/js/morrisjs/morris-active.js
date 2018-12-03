@@ -5,18 +5,19 @@
  */
 
 var urlToJsonDb = "https://raw.githubusercontent.com/razebyte/fusing-connections-analyzer/master/task/results.database.json";
-
+var connections;
+var bandwidthTaskMetrics;
 $.getJSON(urlToJsonDb, function(data) {
-	var bandwidthTaskMetrics = [
+	bandwidthTaskMetrics = [
 		'latency',
 		'dataSizeKB',
 		'avgThroughput',
 		'maxThroughput',
 		'minThroughput'
 	];
-	
-	var connections = Object.keys(data);
-	
+
+	 connections = Object.keys(data);
+
 	var allDates = [].concat.apply([],connections.map(function(c) { return Object.keys(data[c]) }));
 
 	bandwidthTaskMetricResults = {};
@@ -41,6 +42,7 @@ $.getJSON(urlToJsonDb, function(data) {
 		bandwidthTaskMetricResults.avgThroughput,
 		connections
 	);
+
 	setBottomGraph();
 });
 
@@ -58,7 +60,7 @@ var getResultPerDate = function(data, connection, date) {
 				}
 			}
 		]
-	} 
+	}
 	return result[0];
 }
 
@@ -87,6 +89,88 @@ var setTopGraph = function( incomingData, connectionLabels ) {
 		}
 	);
 }
+
+var setfirstConnectionGraph = function() {
+	Morris.Line(
+		{
+			// Required Fields
+			element: 'firstConnectionGraph',
+			data: bandwidthTaskMetricResults.avgThroughput,
+			xkey: 'period',
+			xlabels: '30sec',
+			ykeys: ['item1'],
+			labels: connections,
+
+			// Styling
+			pointSize: 1,
+			fillOpacity: 0.80,
+			pointStrokeColors: ['#FF0000', '#00FF00', '#0000FF'],
+			lineColors: ['#FF0000', '#00FF00', '#0000FF'],
+			gridLineColor: '#e0e0e0',
+			lineWidth: 1,
+			hideHover: 'auto',
+			parseTime: true,
+			resize: true,
+			smooth: true
+		}
+	);
+}
+
+
+var setSecondConnectionGraph = function() {
+	Morris.Line(
+		{
+			// Required Fields
+			element: 'firstConnectionGraph',
+			data: bandwidthTaskMetricResults.avgThroughput,
+			xkey: 'period',
+			xlabels: '30sec',
+			ykeys: ['item2'],
+			labels: connections,
+
+			// Styling
+			pointSize: 1,
+			fillOpacity: 0.80,
+			pointStrokeColors: ['#FF0000', '#00FF00', '#0000FF'],
+			lineColors: ['#FF0000', '#00FF00', '#0000FF'],
+			gridLineColor: '#e0e0e0',
+			lineWidth: 1,
+			hideHover: 'auto',
+			parseTime: true,
+			resize: true,
+			smooth: true
+		}
+	);
+}
+
+
+var setthirdConnectionGraph = function() {
+	Morris.Line(
+		{
+			// Required Fields
+			element: 'ThirdConnectionGraph',
+			data: bandwidthTaskMetricResults.avgThroughput,
+			xkey: 'period',
+			xlabels: '30sec',
+			ykeys: ['item3'],
+			labels: connections,
+
+			// Styling
+			pointSize: 1,
+			fillOpacity: 0.80,
+			pointStrokeColors: ['#FF0000', '#00FF00', '#0000FF'],
+			lineColors: ['#FF0000', '#00FF00', '#0000FF'],
+			gridLineColor: '#e0e0e0',
+			lineWidth: 1,
+			hideHover: 'auto',
+			parseTime: true,
+			resize: true,
+			smooth: true
+		}
+	);
+}
+
+
 
 var setBottomGraph = function() {
 	var data = [
@@ -150,5 +234,5 @@ var setBottomGraph = function() {
 			lineColors: ['#65b12d', '#933EC5 ', '#006DF0'],
 			resize: true
 		}
-	);	
+	);
 }
