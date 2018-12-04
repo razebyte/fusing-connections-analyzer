@@ -17,7 +17,7 @@ $.getJSON(urlToJsonDb, function(data) {
 	];
 
 	 connections = Object.keys(data);
-
+console.log(connections);
 	var allDates = [].concat.apply([],connections.map(function(c) { return Object.keys(data[c]) }));
 
 	bandwidthTaskMetricResults = {};
