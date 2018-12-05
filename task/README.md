@@ -1,15 +1,21 @@
-# Task.js
-This is the collection of network tasks to be executed for gathering QoS metrics.
+# N-Network Analysis: Task
+This is a node application required to execute a "Quality of Service Metric Data Gathering Task" for a set of connections that have been "fused" together.
 
-## Current `TODO`'s
-* Finalize the JSON Output format to write within task.js
-* Create more SomeTask.js to gather more QoS metrics
-* Determine a public api to DL a file through HTTP.
-* Figure out how to configure the proxy
+## How To Use
+*Run each command with this directory as your current working directory*
+## Prerequisites
+* Latest version of `Node.js`
+* An active internet connection on the machine running this.
+   * *Ideally more than one connection! You want the connections to being "**fused**"*
 
-
-## Installation
-execute the following while in the current directory.
+#### 1) Install Dependencies
 ``
-npm install
+npm install .
 ``
+#### 2) Run The Task
+``
+node proxyTester
+``
+#### 3) See Your Results
+View your results in the file named; `results.database.json`
+`./schema` contains a schema description of this file.

@@ -1,3 +1,12 @@
-### README
-#### run 'npm install -g local-web-server' then 'ws'
-###### - incomplete, more to come
+# N-Network Analysis: UI
+This is an Web Application UI required to visualize the data.
+
+## How To Use
+
+## Prerequisites
+* TODO: Fill in
+
+#### 1) TODO: Fill In
+``
+some command
+``
